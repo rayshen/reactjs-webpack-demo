@@ -1,13 +1,11 @@
-require("../../css/style.css");
-var React = require('react');
-var ProductBox = React.createClass({
-  render: function () {
-    return (
+import ReactDOM from "react-dom";
+import React from "react";
+import CSS from "../../css/style.css";
+
+const ProductBox = (
       <div className="bgColor">
         Hello World!
       </div>
-    );
-  }
-});
+     );
 
 module.exports = ProductBox;

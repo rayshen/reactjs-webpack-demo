@@ -1,5 +1,5 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var AppComponent = require('./components/productBox.js');
+import ReactDOM from "react-dom";
+import React from "react";
+import AppComponent from "./components/productBox";
 
-ReactDOM.render(<AppComponent />, document.getElementById('content'));
+ReactDOM.render(AppComponent, document.getElementById('content'));
